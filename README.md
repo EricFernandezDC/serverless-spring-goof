@@ -1,7 +1,7 @@
 # Vulnerable Spring Cloud Function todo application to be run on AWS
 
 This application has 4 functions, create, get, update and delete. To build, run:
- t4es
+
 ```mvn clean install```
 
 Then run ```createFunctions.sh``` to duplicate the jar output and change the ```function.name``` in the ```application.properties``` file.
